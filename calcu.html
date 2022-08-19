@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <ul>
+                <li>BrownBoy</li>
+            </ul>
+        </div>
+        <nav class="nav-link">
+            <ul class="nav-link_list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="calcu.html">Calculator</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="cal-brand">
+        <h2>TABLE CALCULATOR</h2>
+    </div>
+
+    <div class="cal-field">
+        <div class="cal-input">
+            <input type="text" placeholder="0">
+        </div>
+
+        <table>
+            <tr class="step">
+                <td class="grey">AC</td>
+                <td class="grey">+/-</td>
+                <td class="grey">%</td>
+                <td class="orange">/</td>
+            </tr>
+
+            <tr class="step">
+                <td class="neutral">7</td>
+                <td class="neutral">8</td>
+                <td class="neutral">9</td>
+                <td class="white">*</td>
+            </tr>
+
+            <tr class="step">
+                <td class="neutral">4</td>
+                <td class="neutral">5</td>
+                <td class="neutral">6</td>
+                <td class="orange">-</td>
+            </tr>
+
+            <tr class="step">
+                <td class="neutral">1</td>
+                <td class="neutral">2</td>
+                <td class="neutral">3</td>
+                <td class="orange">+</td>
+            </tr>
+
+            <tr class="step">
+                <td class="zero" colspan="2">0</td>
+                <td class="neutral">.</td>
+                <td class="orange">=</td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
+    <!--calculator using flexbox-->
+    <div class="fcal-brand">
+        <h2>FLEXBOX CALCULATOR</h2>
+    </div>
+
+    <div class="fcal-field">
+
+        <div class="fcal-input">
+            <input type="text" placeholder="0">
+        </div>
+
+        <div class="fcal-container">
+            <div class="fstep">
+                <p class="grey">AC</p>
+                <p class="neutral">7</p>
+                <p class="neutral">4</p>
+                <p class="neutral">1</p>
+                <p class="neutral">0</p>
+            </div>
+
+            <div class="fstep">
+                <p class="grey">+/-</p>
+                <p class="neutral">8</p>
+                <p class="neutral">5</p>
+                <p class="neutral">2</p>
+                <p class="neutral">^</p>
+            </div>
+
+            <div class="fstep">
+                <p class="grey">%</p>
+                <p class="neutral">9</p>
+                <p class="neutral">6</p>
+                <p class="neutral">3</p>
+                <p class="neutral">.</p>
+            </div>
+
+            <div class="fstep">
+                <p class="orange">/</p>
+                <p class="orange">*</p>
+                <p class="orange">-</p>
+                <p class="orange">+</p>
+                <p class="orange">=</p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
